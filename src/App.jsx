@@ -6,6 +6,8 @@ import Nav from './components/Nav'
 import { Route, Routes } from 'react-router-dom'
 import Tabl from './components/Tabl'
 import Cards from './components/Cards'
+import Input from './components/Input'
+
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
       <Route path="/t" element={<Third data={{age:"20" , name: "DEF"}}/>}/>
       <Route path="/ta" element={<Tabl/>}/>
       <Route path="/c" element={<Cards/>}/>
+      <Route path="/i" element={<Input/>}/>
     </Routes>
     </>
   )

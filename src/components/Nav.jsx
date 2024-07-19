@@ -32,6 +32,9 @@ function Nav() {
           <Button color="secondary" variant="container">
             <Link to="/c" className="nav-link">Cards</Link>
           </Button>
+          <Button color="secondary" variant="container">
+            <Link to="/i" className="nav-link">Add Product</Link>
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>
